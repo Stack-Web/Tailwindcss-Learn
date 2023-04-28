@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-learn",
+  "version": "1.0.0",
+  "description": "Learn Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/css/tailwind.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stack-Web/Tailwindcss-Learn.git"
+  },
+  "keywords": [
+    "Tailwindcss"
+  ],
+  "author": "Yasin (Nisay)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stack-Web/Tailwindcss-Learn/issues"
+  },
+  "homepage": "https://github.com/Stack-Web/Tailwindcss-Learn#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
